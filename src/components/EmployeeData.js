@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import API from "../utils/API";
+import SearchForm from "./SearchBar";
 
 
 class EmployeeData extends Component {
+    // setting the empty arrays for each employee row that will be rendered and the complete employee directory
     state = {
         employee: [],
         displayEmployeeDir: [],
+        search: "",
     };
     // the one time function that will load when application loads the first time
     componentDidMount() {
@@ -14,8 +17,11 @@ class EmployeeData extends Component {
                 employee: res.data.results,
                 displayEmployeeDir: res.data.results
             });
-        }
-        );
+        });
+    };
+
+    handleInputChange = event => {
+        this.setState({ search: event.target.value});
     };
 
     render() {
@@ -28,7 +34,6 @@ class EmployeeData extends Component {
                         <th >Name</th>
                         <th >Email</th>
                         <th >Phone</th>
-                        <th >Location</th>
                         <th >Country</th>
                         <th >Age</th>
                     </tr>
@@ -36,11 +41,10 @@ class EmployeeData extends Component {
      {this.state.displayEmployeeDir.map((employee) => (
          <tbody>
          <tr key={employee.id.value}>
-           <td>Mark</td>
+           <td>Image</td>
            <td>{employee.name.first + " " + employee.name.last}</td>
            <td>{employee.email}</td>
            <td>{employee.phone}</td>
-           <td>{employee.location.city}</td>
            <td>{employee.location.country}</td>
            <td>{employee.dob.age}</td>
          </tr>
