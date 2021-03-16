@@ -38,10 +38,10 @@ class EmployeeData extends Component {
                         <th >Age</th>
                     </tr>
                 </thead>
-     {this.state.displayEmployeeDir.map((employee) => (
+     {this.state.displayEmployeeDir.map(employee => (
          <tbody>
          <tr key={employee.id.value}>
-           <td>Image</td>
+           <td><img src={employee.picture.large} /></td>
            <td>{employee.name.first + " " + employee.name.last}</td>
            <td>{employee.email}</td>
            <td>{employee.phone}</td>
