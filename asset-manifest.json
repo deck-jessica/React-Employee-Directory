@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/React-Employee-Directory/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/React-Employee-Directory/static/js/main.5e32eeef.chunk.js",
-    "main.js.map": "/React-Employee-Directory/static/js/main.5e32eeef.chunk.js.map",
-    "runtime-main.js": "/React-Employee-Directory/static/js/runtime-main.7a3659ee.js",
-    "runtime-main.js.map": "/React-Employee-Directory/static/js/runtime-main.7a3659ee.js.map",
-    "static/js/2.17e852ea.chunk.js": "/React-Employee-Directory/static/js/2.17e852ea.chunk.js",
-    "static/js/2.17e852ea.chunk.js.map": "/React-Employee-Directory/static/js/2.17e852ea.chunk.js.map",
-    "static/js/3.dda45b21.chunk.js": "/React-Employee-Directory/static/js/3.dda45b21.chunk.js",
-    "static/js/3.dda45b21.chunk.js.map": "/React-Employee-Directory/static/js/3.dda45b21.chunk.js.map",
+    "main.js": "/React-Employee-Directory/static/js/main.728a7488.chunk.js",
+    "main.js.map": "/React-Employee-Directory/static/js/main.728a7488.chunk.js.map",
+    "runtime-main.js": "/React-Employee-Directory/static/js/runtime-main.f7528eb6.js",
+    "runtime-main.js.map": "/React-Employee-Directory/static/js/runtime-main.f7528eb6.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/React-Employee-Directory/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2e8d4b88.chunk.js": "/React-Employee-Directory/static/js/2.2e8d4b88.chunk.js",
+    "static/js/2.2e8d4b88.chunk.js.map": "/React-Employee-Directory/static/js/2.2e8d4b88.chunk.js.map",
     "index.html": "/React-Employee-Directory/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/React-Employee-Directory/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9d5b29c0.chunk.css.map": "/React-Employee-Directory/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.17e852ea.chunk.js.LICENSE.txt": "/React-Employee-Directory/static/js/2.17e852ea.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/React-Employee-Directory/static/media/logo.6ce24c58.svg"
+    "static/js/2.2e8d4b88.chunk.js.LICENSE.txt": "/React-Employee-Directory/static/js/2.2e8d4b88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a3659ee.js",
-    "static/js/2.17e852ea.chunk.js",
+    "static/js/runtime-main.f7528eb6.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2e8d4b88.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.5e32eeef.chunk.js"
+    "static/js/main.728a7488.chunk.js"
   ]
 }
