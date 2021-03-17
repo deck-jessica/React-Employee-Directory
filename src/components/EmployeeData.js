@@ -19,9 +19,19 @@ class EmployeeData extends Component {
             });
         });
     };
-
+    // this function will search through employees using filter, built in array method
     handleInputChange = event => {
-        this.setState({ search: event.target.value});
+        const employeeSearch = event.target.value.toLowerCase();
+
+        const filteredEmployee = this.state.employee.filter((employee) => {
+            const employeeResult = employee.name.first + employee.name.last;
+            return employeeResult.toLowerCase().includes(employeeSearch);
+          });
+          this.setState({
+            displayEmployeeDir: filteredEmployee,
+            search: employeeSearch,
+          });
+            
     };
 
    
