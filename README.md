@@ -6,7 +6,7 @@ This is an application that allows users to view employees of a company using Re
 
 [React Employee Directory](https://deck-jessica.github.io/React-Employee-Directory/)
 
-![Main View](.public/screenshot.png)
+![Main View](./public/screenshot.png)
 
  ## Table of Contents
 
