@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-import SearchForm from "./SearchBar";
+import SearchBar from "./SearchBar";
 
 
 class EmployeeData extends Component {
@@ -24,9 +24,14 @@ class EmployeeData extends Component {
         this.setState({ search: event.target.value});
     };
 
+   
     render() {
         return (
          <div>
+             <SearchBar 
+                value={this.state.search}
+                handleInputChange={this.handleInputChange}
+                />
             <table className="table">
                 <thead>
                     <tr>
